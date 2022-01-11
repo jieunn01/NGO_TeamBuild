@@ -1,0 +1,13 @@
+{
+  "name": "Baek_J_NGO_TeamBuild",
+  "version": "1.0.0",
+  "description": "My first node app",
+  "main": "index.js", 
+  "type": "module",
+  "scripts": {
+    "start": "node app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
