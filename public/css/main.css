@@ -1,1 +1,212 @@
-*{border:0;padding:0;margin:0;box-sizing:border-box}.hidden{display:none}a{color:pink;font-size:4em;text-decoration:none;cursor:-webkit-grab;cursor:grab}body{background-color:#000;color:#ff0;font-size:16px}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Prompt:wght@300;400;500;700&display=swap');
+
+body{
+    background-color: white;
+}
+
+#container{
+    background-color: rgba(150, 184, 199, 0.783);
+    margin: 30px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.j_navigator{
+    display: flex;
+    margin: 30px;
+    font-size: 30px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+li{
+    display: inline;
+    align-self: center;
+    margin:0;
+    font-size: 28px;
+    margin-left: 30px;
+}
+
+ul{
+    margin:0;
+}
+
+.logo{
+    margin:0;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.nav-menu{
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    transition: 0.3s;
+}
+
+/* main */
+.msf {
+    width: 450px;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.icon1 {
+    width: 180px;
+}
+.mainCon
+{
+    margin: 30px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.mainCon h2 {
+    margin: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 35px;
+    color: rgb(70, 68, 68);
+}
+
+.mainCon h3 {
+    font-size:22px;
+}
+
+.mainCon, p, span{
+    font-family: 'Noto Sans', Arial, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    color: black;
+}
+/*footer*/
+
+.j_footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 200px;
+    margin-right: 50px;
+}
+
+.contact{
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 40px;
+    align-items: flex-end;
+}
+.links {
+    align-items: flex-end;
+    text-align: right;
+}
+
+.links>a{
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+.linksp {
+    margin-top: 40px;
+    align-items: flex-end;
+    font-size: 18px;
+}
+
+
+
+/* bio page */
+
+.bio-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 100px 100px;
+    margin-bottom: 0px;
+}
+
+
+.biopic{
+    width: 430px;
+    margin-right: 60px;
+    background-size:cover;
+    background-position:center;
+    border-radius:50%;
+}
+
+.introduction>h2{
+    margin: 0px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 35px;
+    color: rgb(70, 68, 68);
+}
+
+.introduction>p{
+    font-family: 'Noto Sans', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 40px;
+    color: black;
+}
+
+.roles{
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.goal-container 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 40px 100px;
+    margin-bottom: 40px;
+}
+
+.goals{
+    margin: 0px;
+    margin-bottom: 40px;;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 35px;
+    color: rgb(70, 68, 68);
+}
+
+
+.goal-container h2{
+    margin: 0px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 28px;
+    color: rgb(70, 68, 68);
+}
+
+.goal-container p{
+    font-family: 'Noto Sans', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 40px;
+    color: black;
+}
+
+
