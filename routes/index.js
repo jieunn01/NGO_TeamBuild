@@ -1,29 +1,35 @@
 import express from 'express';
-const router = express.Router(); 
-import * as  path from 'path';
+const router = express.Router();
 
-// this is the root route - think of this like index.html
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+// set up the root directory reference
+// find the global URL using fileURLToPath
+// and then turn that into the __dirname (something like Users/Desktop/NGO_Redux/)
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// this is the equivalent of index.html
 router.get('/', (req, res) => {
-    //request server information => sned back response 
-    //res.send('hello form express!');
-    //send back the index.html file
-    //res.sendFile('../views/index.html');
-    res.sendFile(path.join(__dirname, '/views/index.html'));
+    //res.send('Hello from Express! Express is awesome');
+    res.sendFile(path.join(__dirname, '../views/index.html'));
 })
 
 router.get('/baek', (req, res) => {
-    res.send(`This is Baek's page`);
-    //res.sendFile(path.join(__dirname, '/views/index.html'));
-})
-
-router.get('/joe', (req, res) => {
-    res.send(`This is Joe's page`);
-    //res.sendFile(path.join(__dirname, '/views/index.html'));
+    //res.send(`this is baek's page`);
+    res.sendFile(path.join(__dirname, '../views/baek.html'));
 })
 
 router.get('/john', (req, res) => {
-    res.send(`This is john's page`);
+    res.send(`all about John`);
+    //res.sendFile(path.join(__dirname, '../views/index.html'));
 })
 
-// export ther router add make it available to app.js
+// this catches broken routes - requests for resources that don't exist
+router.use((req, res) => {
+    console.log('page does not exist');
+    res.sendFile(path.join(__dirname, '../views/404.html'));
+})
+
 export default router;
