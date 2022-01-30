@@ -1,0 +1,38 @@
+.msf {
+    width: 450px;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.icon1 {
+    width: 180px;
+}
+.mainCon
+{
+    margin: 30px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.mainCon h2 {
+    margin: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 35px;
+    color: rgb(70, 68, 68);
+}
+
+.mainCon h3 {
+    font-size:22px;
+}
+
+.mainCon, p, span{
+    font-family: 'Noto Sans', Arial, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    color: black;
+}

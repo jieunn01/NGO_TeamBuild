@@ -1,0 +1,26 @@
+@import './modules/_header.scss';
+@import './modules/_body.scss';
+@import './modules/_404.scss';
+@import './modules/_jieun.scss';
+@import './modules/_main.scss';
+@import './modules/_footer.scss';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Prompt:wght@300;400;500;700&display=swap');
+
+body{
+    background-color: white;
+}
+
+#container{
+    background-color: rgba(150, 184, 199, 0.783);
+    margin: 30px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    font-size: 22px;
+}
+
+.hidden {
+    display: none;
+}

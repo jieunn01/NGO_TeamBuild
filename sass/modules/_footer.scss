@@ -1,0 +1,33 @@
+.j_footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 200px;
+    margin-right: 50px;
+}
+
+.contact{
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 40px;
+    align-items: flex-end;
+}
+.links {
+    align-items: flex-end;
+    text-align: right;
+}
+
+.links>a{
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+.linksp {
+    margin-top: 40px;
+    align-items: flex-end;
+    font-size: 18px;
+}

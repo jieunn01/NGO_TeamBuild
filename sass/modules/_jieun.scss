@@ -1,0 +1,77 @@
+.bio-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 100px 100px;
+    margin-bottom: 0px;
+}
+
+
+.biopic{
+    width: 430px;
+    margin-right: 60px;
+    background-size:cover;
+    background-position:center;
+    border-radius:50%;
+}
+
+.introduction>h2{
+    margin: 0px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 35px;
+    color: rgb(70, 68, 68);
+}
+
+.introduction>p{
+    font-family: 'Noto Sans', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 40px;
+    color: black;
+}
+
+.roles{
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.goal-container 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 40px 100px;
+    margin-bottom: 40px;
+}
+
+.goals{
+    margin: 0px;
+    margin-bottom: 40px;;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 35px;
+    color: rgb(70, 68, 68);
+}
+
+
+.goal-container h2{
+    margin: 0px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 28px;
+    color: rgb(70, 68, 68);
+}
+
+.goal-container p{
+    font-family: 'Noto Sans', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 40px;
+    color: black;
+}
+
+
