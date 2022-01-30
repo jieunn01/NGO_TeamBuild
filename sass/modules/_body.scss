@@ -1,7 +1,7 @@
   .pages {
     padding:20px 40px;
     margin-top: 20px;
-    color: rgb(70, 68, 68);
+    color: white;
     align-items: center;
 
   }
@@ -23,7 +23,6 @@
   .mainBox
   {
       width: auto;
-      background-color: rgb(70, 68, 68);
       margin: 10px;
       margin-right: 0px;
       margin-left: 0px;
@@ -36,7 +35,6 @@
   { margin: auto;
     margin-top: 20px;
     margin-left: 20px;
-    background-color: rgb(70, 68, 68);
     flex-direction: column;
   }
   
@@ -53,7 +51,7 @@
     border-radius: 3px;
     width: 150px;
     background-color: white;
-   color: rgb(70, 68, 68);
+   color: rgba(150, 184, 199, 0.783);
    font-size: 16px;
   }
 
