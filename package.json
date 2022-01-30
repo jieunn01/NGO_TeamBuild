@@ -11,12 +11,14 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.2"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "express": "^4.17.2",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
-    "gulp-css": "^0.1.0"
+    "gulp-css": "^0.1.0",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.49.0"
   }
 }

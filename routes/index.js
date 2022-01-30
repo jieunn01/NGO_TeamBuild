@@ -21,9 +21,9 @@ router.get('/baek', (req, res) => {
     res.sendFile(path.join(__dirname, '../views/baek.html'));
 })
 
-router.get('/john', (req, res) => {
-    res.send(`all about John`);
-    //res.sendFile(path.join(__dirname, '../views/index.html'));
+router.get('/gaukhar', (req, res) => {
+    //res.send(`all about Gaukhar`);
+    res.sendFile(path.join(__dirname, '../views/gaukhar.html'));
 })
 
 // this catches broken routes - requests for resources that don't exist
