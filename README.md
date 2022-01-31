@@ -23,7 +23,7 @@ A non-governmental organization (NGO) is a non-profit group that functions indep
 
 Médecins Sans Frontières (MSF) is an international, independent, medical humanitarian organisation that delivers emergency aid to people affected by armed conflict, epidemics, pandemics, natural disasters and exclusion from healthcare. We offer assistance to people based on need and irrespective of race, religion, gender or political affiliation. 
 
-### Memebers
+### Members
 
 **Baek Jieun**
 

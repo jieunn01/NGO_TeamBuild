@@ -12,7 +12,7 @@ const __dirname = path.dirname(__filename);
 console.log(__dirname);
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 4000;
 
 app.use(express.static(path.join(__dirname, "public")));
 
